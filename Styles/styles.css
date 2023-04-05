@@ -192,3 +192,16 @@ footer {
 .card-body{
   background-color: #ffc476;
 }
+
+/*cafe*/
+.cafetittle{
+  display: flex;
+  justify-content: center;
+}
+
+.cafewallpaper{
+  width: 1000px;
+  height: 400px;
+  padding-left: 400px;
+}
+
