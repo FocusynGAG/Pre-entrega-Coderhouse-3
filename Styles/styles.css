@@ -79,6 +79,7 @@ nav {
     
 
 /*body*/
+
 .imgcontainer{
   display: flex;
   flex-direction: row;
@@ -180,3 +181,14 @@ footer {
     }
   }
   
+/*Cards menú*/
+.cardslist{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #f5ee93;
+}
+
+.card-body{
+  background-color: #ffc476;
+}
