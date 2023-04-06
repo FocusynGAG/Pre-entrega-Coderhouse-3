@@ -197,6 +197,19 @@ footer {
 .cafetittle{
   display: flex;
   justify-content: center;
+  background-color: #ffc476;
+  padding-top: 10px;
+  font-size: 70px;
+}
+
+.cafetext{
+  display: flex;
+  justify-content: center;
+}
+
+.cafetext2{
+  display: flex;
+  padding-left: 30px;
 }
 
 .cafewallpaper{
@@ -205,3 +218,12 @@ footer {
   padding-left: 400px;
 }
 
+.cafeservido{
+  width: 1000px;
+  height: 400px;
+  padding-left: 400px;
+}
+
+body p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
