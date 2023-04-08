@@ -101,10 +101,6 @@ nav ul li a {
 }
 
 /*body*/
-.imagen-drive {
-  width: 400px;
-}
-
 .imgcontainer {
   display: flex;
   flex-direction: row;
@@ -259,4 +255,17 @@ p {
 
 body p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagen-drive {
+  width: 600px;
+  padding-left: 20px;
+}
+
+.imagen-delivery {
+  width: 700px;
+}
+
+.maps {
+  padding-left: 100px;
 }/*# sourceMappingURL=styles.css.map */

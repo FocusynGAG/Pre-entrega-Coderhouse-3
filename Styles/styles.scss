@@ -121,12 +121,6 @@ nav {
     
 
 /*body*/
-.imagen-drive{
-    width: 400px;
-}
-
-
-
 .imgcontainer{
   display: flex;
   flex-direction: row;
@@ -285,4 +279,19 @@ footer {
 
 body p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+//experiencia//
+.imagen-drive{
+  width: 600px;
+  padding-left: 20px;
+}
+
+.imagen-delivery{
+  width: 700px;
+}
+
+//localizar tienda//
+.maps{
+  padding-left: 100px;
 }
