@@ -1,200 +1,233 @@
-*{
-    padding: 0px;
-    margin: 0px;
+@charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.texto {
+  background-color: rgb(241, 205, 83);
+  padding: 12px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.imagen {
+  max-width: 100%;
+  height: auto;
+  padding-top: 20px;
 }
 
 nav {
-    background-color: #000000;
-    color: #ffc476;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    height: 80px;
-  }
-  
+  background-color: #000000;
+  color: #ffc476;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+}
+
+nav label {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #f3efef;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.textnav:hover {
+  background-color: rgb(85, 65, 20);
+}
+
+@media (max-width: 768px) {
   nav label {
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
+    display: block;
   }
-  
   nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: #f3efef;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  @media (max-width: 768px) {
-    nav label {
-      display: block;
-    }
-    nav ul {
-      display: none;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      right: 0;
-      background-color: #333;
-    }
-    nav ul li {
-      width: 100%;
-      text-align: center;
-      margin: 10px 0;
-    }
-    nav ul li a {
-      padding: 10px 0;
-      display: block;
-      border-bottom: 1px solid #fff;
-    }
-    #btn-menu:checked ~ ul {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
-
-.iniciologo{
-    width: 55px;
-    height: 55px;
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-}
-
-.check{
     display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+  }
+  nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  nav ul li a {
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid #fff;
+  }
+  #btn-menu:checked ~ ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
-    
+.iniciologo {
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.check {
+  display: none;
+}
 
 /*body*/
+.imagen-drive {
+  width: 400px;
+}
 
-.imgcontainer{
+.imgcontainer {
   display: flex;
   flex-direction: row;
 }
 
-.wallpaper{
-    width: 1348px;
-    height: 600px;
+.wallpaper {
+  width: 1348px;
+  height: 600px;
+}
+
+.texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.drivetext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 767px) {
-    .wallpaper{
-      width: 800px;
-      height: 200px;
-      padding-right: 420px;
-    }
-
+  .wallpaper {
+    width: 800px;
+    height: 200px;
+    padding-right: 420px;
+  }
+}
+.tiendatext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 /*footer*/
 footer {
-    background-color: #805832;
-    padding: 40px 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .col-sm-12 {
-    flex-basis: 100%;
-  }
-  
-  .col-md-6 {
-    flex-basis: 50%;
-  }
-  
-  p {
-    margin: 0;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .social-icons li {
-    margin-left: 10px;
-  }
-  
-  .social-icons li:first-child {
-    margin-left: 0;
-  }
-  
-  .social-icons li a {
-    color: #555555;
-    font-size: 20px;
-  }
-  
-  .social-icons li a:hover {
-    color: #1abc9c;
-  }
-  
-  /* Estilos para pantallas pequeñas */
+  background-color: #805832;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col-sm-12 {
+  flex-basis: 100%;
+}
+
+.col-md-6 {
+  flex-basis: 50%;
+}
+
+p {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  margin-left: 10px;
+}
+
+.social-icons li:first-child {
+  margin-left: 0;
+}
+
+.social-icons li a {
+  color: #555555;
+  font-size: 20px;
+}
+
+.social-icons li a:hover {
+  color: #1abc9c;
+}
+
+/* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
-    footer {
-      padding: 20px 0;
-    }
-    
-    .col-md-6 {
-      flex-basis: 100%;
-      margin-top: 20px;
-    }
-    
-    .social-icons {
-      justify-content: center;
-    }
+  footer {
+    padding: 20px 0;
   }
-  
-  /* Estilos para pantallas medianas y grandes */
-  @media screen and (min-width: 768px) {
-    .row {
-      justify-content: space-between;
-    }
-    
-    .col-md-6 {
-      flex-basis: auto;
-      margin-top: 0;
-    }
+  .col-md-6 {
+    flex-basis: 100%;
+    margin-top: 20px;
   }
-  
+  .social-icons {
+    justify-content: center;
+  }
+}
+/* Estilos para pantallas medianas y grandes */
+@media screen and (min-width: 768px) {
+  .row {
+    justify-content: space-between;
+  }
+  .col-md-6 {
+    flex-basis: auto;
+    margin-top: 0;
+  }
+}
 /*Cards menú*/
-.cardslist{
+.cardslist {
   display: flex;
   justify-content: center;
   gap: 50px;
   background-color: #f5ee93;
 }
 
-.card-body{
+.card-body {
   background-color: #ffc476;
 }
 
 /*cafe*/
-.cafetittle{
+.cafetittle {
   display: flex;
   justify-content: center;
   background-color: #ffc476;
@@ -202,28 +235,28 @@ footer {
   font-size: 70px;
 }
 
-.cafetext{
+.cafetext {
   display: flex;
   justify-content: center;
 }
 
-.cafetext2{
+.cafetext2 {
   display: flex;
   padding-left: 30px;
 }
 
-.cafewallpaper{
+.cafewallpaper {
   width: 1000px;
   height: 400px;
   padding-left: 400px;
 }
 
-.cafeservido{
+.cafeservido {
   width: 1000px;
   height: 400px;
   padding-left: 400px;
 }
 
-body p{
+body p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+}/*# sourceMappingURL=styles.css.map */
