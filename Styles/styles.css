@@ -137,6 +137,7 @@ nav ul li a {
 footer {
   background-color: #805832;
   padding: 40px 0;
+  margin-top: 20px;
 }
 
 .footercontainer {
@@ -204,6 +205,10 @@ footer p {
   background-color: #ffc476;
 }
 
+div h5 a {
+  color: #ffc476;
+}
+
 /*cafe*/
 .cafetittle {
   display: flex;
@@ -216,6 +221,7 @@ footer p {
 .cafetext {
   display: flex;
   justify-content: center;
+  background-color: #f5ee93;
 }
 
 .cafetext2 {
@@ -227,6 +233,7 @@ footer p {
   width: 1000px;
   height: 400px;
   padding-left: 400px;
+  padding-bottom: 10px;
 }
 
 .cafeservido {
@@ -252,13 +259,26 @@ body p {
     padding-left: 100px;
   }
 }
+.div-drive {
+  width: 700px;
+  height: 350px;
+  display: flex;
+  justify-content: right;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
 .imagen-drive {
-  width: 600px;
-  padding-left: 20px;
+  width: 546px;
+  height: 300x;
+  margin-top: 5px;
 }
 
 .imagen-delivery {
-  width: 700px;
+  width: 550px;
+  height: 350px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -280,6 +300,19 @@ body p {
     display: none;
   }
 }
-.maps {
-  padding-left: 100px;
+iframe {
+  padding-left: 20px;
+}
+
+.ubicacion {
+  text-decoration: none;
+  color: #000000;
+}
+
+.ubicacion:hover {
+  color: green;
+}
+
+ul {
+  padding-left: 20px;
 }/*# sourceMappingURL=styles.css.map */
