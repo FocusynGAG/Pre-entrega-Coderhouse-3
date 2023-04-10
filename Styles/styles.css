@@ -123,9 +123,9 @@ nav ul li a {
 
 @media screen and (max-width: 767px) {
   .wallpaper {
-    width: 800px;
-    height: 200px;
-    padding-right: 420px;
+    width: 1200px;
+    height: 400px;
+    padding-right: 500px;
   }
 }
 .tiendatext {
@@ -139,52 +139,34 @@ footer {
   padding: 40px 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.row {
+.footercontainer {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
-.col-sm-12 {
-  flex-basis: 100%;
-}
-
-.col-md-6 {
-  flex-basis: 50%;
-}
-
-p {
-  margin: 0;
-}
-
-.social-icons {
+footer p {
   display: flex;
-  justify-content: flex-end;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.social-icons li {
-  margin-left: 10px;
+.whatsapp:hover {
+  background-color: rgb(241, 205, 83);
+  width: 60px;
+  height: 60px;
 }
 
-.social-icons li:first-child {
-  margin-left: 0;
+.instagram:hover {
+  background-color: rgb(241, 205, 83);
+  width: 60px;
+  height: 60px;
 }
 
-.social-icons li a {
-  color: #555555;
-  font-size: 20px;
-}
-
-.social-icons li a:hover {
-  color: #1abc9c;
+.gmail:hover {
+  background-color: rgb(241, 205, 83);
+  width: 60px;
+  height: 60px;
 }
 
 /* Estilos para pantallas pequeñas */
@@ -251,12 +233,25 @@ p {
   width: 1000px;
   height: 400px;
   padding-left: 400px;
+  padding-bottom: 50px;
 }
 
 body p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media screen and (max-width: 767px) {
+  .cafewallpaper {
+    width: 500px;
+    height: 300px;
+    padding-left: 120px;
+  }
+  .cafeservido {
+    width: 500px;
+    height: 250px;
+    padding-left: 100px;
+  }
+}
 .imagen-drive {
   width: 600px;
   padding-left: 20px;
@@ -266,6 +261,25 @@ body p {
   width: 700px;
 }
 
+@media screen and (max-width: 767px) {
+  .texto {
+    width: 500px;
+    height: 150px;
+    margin: 20px;
+  }
+  body div p {
+    font-size: 15px;
+  }
+  .imagen {
+    display: none;
+  }
+  .imagen-drive {
+    display: none;
+  }
+  .imagen-delivery {
+    display: none;
+  }
+}
 .maps {
   padding-left: 100px;
 }/*# sourceMappingURL=styles.css.map */

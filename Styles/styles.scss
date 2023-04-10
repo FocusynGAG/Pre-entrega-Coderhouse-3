@@ -141,9 +141,9 @@ nav {
 
 @media screen and (max-width: 767px) {
     .wallpaper{
-      width: 800px;
-      height: 200px;
-      padding-right: 420px;
+      width: 1200px;
+      height: 400px;
+      padding-right: 500px;
     }
 
 }
@@ -158,54 +158,36 @@ footer {
     padding: 40px 0;
   }
   
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.footercontainer{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.whatsapp:hover{
+  background-color: $color-principal;
+  width: 60px;
+  height: 60px;
+}
+
+.instagram:hover{
+  background-color: $color-principal;
+  width: 60px;
+  height: 60px;
+}
   
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .col-sm-12 {
-    flex-basis: 100%;
-  }
-  
-  .col-md-6 {
-    flex-basis: 50%;
-  }
-  
-  p {
-    margin: 0;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .social-icons li {
-    margin-left: 10px;
-  }
-  
-  .social-icons li:first-child {
-    margin-left: 0;
-  }
-  
-  .social-icons li a {
-    color: #555555;
-    font-size: 20px;
-  }
-  
-  .social-icons li a:hover {
-    color: #1abc9c;
-  }
-  
+.gmail:hover{
+  background-color: $color-principal;
+  width: 60px;
+  height: 60px;
+}
+
   /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
     footer {
@@ -275,10 +257,25 @@ footer {
   width: 1000px;
   height: 400px;
   padding-left: 400px;
+  padding-bottom: 50px;
 }
 
 body p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .cafewallpaper{
+    width: 500px;
+    height: 300px;
+    padding-left: 120px;
+  }
+
+  .cafeservido{
+    width: 500px;
+    height: 250px;
+    padding-left: 100px;
+  }
 }
 
 //experiencia//
@@ -290,6 +287,29 @@ body p{
 .imagen-delivery{
   width: 700px;
 }
+
+@media screen and (max-width: 767px) {
+  .texto{
+    width: 500px;
+    height: 150px;
+    margin: 20px;
+  }
+
+  body div p{
+    font-size: 15px;
+  }
+
+  .imagen{
+    display: none;
+  }
+
+  .imagen-drive{
+    display: none;
+   }
+  .imagen-delivery{
+    display: none;
+   }
+    }
 
 //localizar tienda//
 .maps{
