@@ -205,10 +205,6 @@ footer p {
   background-color: #ffc476;
 }
 
-div h5 a {
-  color: #ffc476;
-}
-
 /*cafe*/
 .cafetittle {
   display: flex;
@@ -258,6 +254,9 @@ body p {
     height: 250px;
     padding-left: 100px;
   }
+  .cafetittle {
+    font-size: 50px;
+  }
 }
 .div-drive {
   width: 700px;
@@ -283,12 +282,17 @@ body p {
 
 @media screen and (max-width: 767px) {
   .texto {
-    width: 500px;
+    width: 400px;
     height: 150px;
-    margin: 20px;
+    margin: 5px;
+    padding-left: 0px;
+  }
+  .container {
+    padding: 0px;
   }
   body div p {
-    font-size: 15px;
+    font-size: 10px;
+    padding-left: 2px;
   }
   .imagen {
     display: none;
