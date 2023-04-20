@@ -152,6 +152,44 @@ footer p {
   text-decoration: none;
 }
 
+.tittlesfooter {
+  display: flex;
+  gap: 60px;
+  padding-left: 5px;
+}
+
+.subtittlesfooter {
+  display: flex;
+  gap: 90px;
+  padding-left: 5px;
+}
+
+.contacto {
+  padding-left: 70px;
+}
+
+.pago {
+  padding-left: 58px;
+}
+
+.personas {
+  padding-left: 6px;
+}
+
+div h3 {
+  font-size: 25px;
+}
+
+div a {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+div a:hover {
+  color: #f3efef;
+}
+
 .whatsapp:hover {
   background-color: rgb(241, 205, 83);
   width: 60px;
