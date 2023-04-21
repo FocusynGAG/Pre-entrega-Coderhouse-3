@@ -12,7 +12,7 @@
 }
 
 .texto {
-  background-color: rgb(241, 205, 83);
+  background-color: rgb(230, 201, 107);
   padding: 12px;
   font-size: 1.2rem;
   text-align: justify;
@@ -191,19 +191,19 @@ div a:hover {
 }
 
 .whatsapp:hover {
-  background-color: rgb(241, 205, 83);
+  background-color: rgb(230, 201, 107);
   width: 60px;
   height: 60px;
 }
 
 .instagram:hover {
-  background-color: rgb(241, 205, 83);
+  background-color: rgb(230, 201, 107);
   width: 60px;
   height: 60px;
 }
 
 .gmail:hover {
-  background-color: rgb(241, 205, 83);
+  background-color: rgb(230, 201, 107);
   width: 60px;
   height: 60px;
 }
@@ -236,11 +236,22 @@ div a:hover {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin: 10px;
   background-color: #f5ee93;
 }
 
 .card-body {
-  background-color: #ffc476;
+  background-color: #f5b45f;
+}
+
+.btn.btn-primary {
+  background-color: #775830;
+  border-color: #000000;
+}
+
+.btn.btn-primary:hover {
+  background-color: #333;
+  border-color: whitesmoke;
 }
 
 /*cafe*/
@@ -263,18 +274,32 @@ div a:hover {
   padding-left: 30px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-box {
+  flex: 1;
+  padding: 20px;
+  background-color: #c0c0c0;
+  text-align: center;
+}
+
 .cafewallpaper {
-  width: 1000px;
+  width: 500px;
   height: 400px;
-  padding-left: 400px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .cafeservido {
   width: 1000px;
   height: 400px;
   padding-left: 400px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 body p {
