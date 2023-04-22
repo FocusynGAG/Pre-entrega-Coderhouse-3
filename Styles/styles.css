@@ -382,4 +382,14 @@ iframe {
 
 ul {
   padding-left: 20px;
+}
+
+#map-container {
+  display: none; /* ocultamos el contenedor del mapa por defecto */
+  height: 400px;
+  width: 100%;
+}
+
+#show-map:checked + #map-container {
+  display: block; /* mostramos el contenedor del mapa cuando el checkbox está seleccionado */
 }/*# sourceMappingURL=styles.css.map */

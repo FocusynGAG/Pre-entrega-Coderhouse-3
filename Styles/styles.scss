@@ -413,15 +413,11 @@ iframe{
   padding-left: 20px;
 }
 
-.ubicacion{
-  text-decoration: none;
-  color: #000000;
-}
-
-.ubicacion:hover{
-  color: green;
-}
-
 ul{
   padding-left: 20px;
+}
+
+div iframe{
+  display: flex;
+  justify-content: center;
 }
