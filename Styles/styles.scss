@@ -131,10 +131,12 @@ nav {
   flex-direction: row;
 }
 
-.wallpaper{
-    width: 1348px;
-    height: 600px;
+.imagen-responsive img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
+
 
 .texto{
     @include font_adjust()
@@ -144,14 +146,6 @@ nav {
     @include tittle_adjust()
 }
 
-@media screen and (max-width: 767px) {
-    .wallpaper{
-      width: 1200px;
-      height: 400px;
-      padding-right: 500px;
-    }
-
-}
 
 .tiendatext{
     @include tittle_adjust()
@@ -232,7 +226,6 @@ div a:hover{
   height: 60px;
 }
 
-
   /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
     footer {
@@ -283,6 +276,13 @@ div a:hover{
 .btn.btn-primary:hover{
   background-color: #333;
   border-color: whitesmoke;
+}
+
+@media screen and (max-width: 767px) {
+  .cardslist{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*cafe*/
@@ -338,10 +338,9 @@ body p{
 }
 
 @media screen and (max-width: 767px) {
-  .cafewallpaper{
-    width: 500px;
-    height: 300px;
-    padding-left: 120px;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .cafeservido{
@@ -388,7 +387,8 @@ body p{
   }
 
   .container{
-    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   body div p{
@@ -396,16 +396,6 @@ body p{
     padding-left: 2px;
   }
 
-  .imagen{
-    display: none;
-  }
-
-  .imagen-drive{
-    display: none;
-   }
-  .imagen-delivery{
-    display: none;
-   }
     }
 
 //localizar tienda//
