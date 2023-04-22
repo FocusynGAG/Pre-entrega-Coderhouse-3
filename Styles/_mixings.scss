@@ -1,0 +1,15 @@
+//mixings
+@mixin font_adjust{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+} 
+
+@mixin tittle_adjust{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+@mixin imagen-personalizada{
+  width: 600px;
+  height: 250px;
+}

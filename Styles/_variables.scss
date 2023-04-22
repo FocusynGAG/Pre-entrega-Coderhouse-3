@@ -1,0 +1,16 @@
+//variables
+$color-principal: rgb(230, 201, 107);
+$color-hover: rgb(85, 65, 20);
+
+.texto{
+    @include font_adjust()
+}
+
+.drivetext{
+    @include tittle_adjust()
+}
+
+
+.tiendatext{
+    @include tittle_adjust()
+}

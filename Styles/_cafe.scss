@@ -1,0 +1,68 @@
+/*cafe*/
+.cafetittle{
+    display: flex;
+    justify-content: center;
+    background-color: #ffc476;
+    padding-top: 10px;
+    font-size: 70px;
+  }
+  
+  .cafetext{
+    display: flex;
+    justify-content: center;
+    background-color: #f5ee93;
+  }
+  
+  .cafetext2{
+    display: flex;
+    padding-left: 30px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .text-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #c0c0c0;
+    text-align: center;
+  }
+  
+  .cafewallpaper{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  .cafeservido{
+    width: 1000px;
+    height: 400px;
+    padding-left: 400px;
+    padding-bottom: 20px;
+  }
+  
+  body p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .cafeservido{
+      width: 500px;
+      height: 250px;
+      padding-left: 100px;
+    }
+  
+    .cafetittle{
+      font-size: 50px;
+    }
+  }

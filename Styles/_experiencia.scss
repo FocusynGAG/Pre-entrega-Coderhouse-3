@@ -1,0 +1,43 @@
+//experiencia//
+.div-drive{
+    width: 700px;
+    height: 350px;
+    display: flex;
+    justify-content: right;
+    padding-right: 5px;
+    margin-top: 5px;
+    
+  }
+  
+  .imagen-drive{
+    width: 546px;
+    height: 300x;
+    margin-top: 5px;
+  }
+  
+  .imagen-delivery{
+    width: 550px;
+    height: 350px;
+    padding-right: 5px;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .texto{
+      width: 400px;
+      height: 150px;
+      margin: 5px;
+      padding-left: 0px;
+    }
+  
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    body div p{
+      font-size: 10px;
+      padding-left: 2px;
+    }
+  
+      }

@@ -1,0 +1,30 @@
+/*Cards menú*/
+.cardslist{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;
+    background-color: #f5ee93;
+  }
+  
+  .card-body{
+    background-color: #f5b45f;
+  }
+  
+  
+  .btn.btn-primary{
+    background-color: #775830;
+    border-color: #000000;
+  }
+  
+  .btn.btn-primary:hover{
+    background-color: #333;
+    border-color: whitesmoke;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .cardslist{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

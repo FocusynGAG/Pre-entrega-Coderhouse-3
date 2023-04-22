@@ -1,0 +1,102 @@
+/*footer*/
+footer {
+    background-color: #805832;
+    padding: 40px 0;
+    margin-top: 20px;
+  }
+  
+.footercontainer{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.tittlesfooter{
+  display: flex;
+  gap: 60px;
+  padding-left: 5px;
+}
+
+.subtittlesfooter{
+  display: flex;
+  gap: 90px;
+  padding-left: 5px;
+}
+
+.contacto{
+  padding-left: 70px;
+}
+
+.pago{
+  padding-left: 58px;
+}
+
+.personas{
+  padding-left: 6px;
+}
+
+div h3{
+  font-size: 25px;
+}
+
+div a{
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+div a:hover{
+  color: #f3efef;
+}
+
+.whatsapp:hover{
+  background-color: $color-principal;
+  width: 60px;
+  height: 60px;
+}
+
+.instagram:hover{
+  background-color: $color-principal;
+  width: 60px;
+  height: 60px;
+}
+  
+.gmail:hover{
+  background-color: $color-principal;
+  width: 60px;
+  height: 60px;
+}
+
+  /* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+    footer {
+      padding: 20px 0;
+    }
+    
+    .col-md-6 {
+      flex-basis: 100%;
+      margin-top: 20px;
+    }
+    
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
+  /* Estilos para pantallas medianas y grandes */
+  @media screen and (min-width: 768px) {
+    .row {
+      justify-content: space-between;
+    }
+    
+    .col-md-6 {
+      flex-basis: auto;
+      margin-top: 0;
+    }
+  }
